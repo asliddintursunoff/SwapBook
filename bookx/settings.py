@@ -21,7 +21,7 @@ else:
     STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Accept everything in dev; set explicit domains in prod if you want stricter control
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "192.168.43.115","https://swapbook.onrender.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "192.168.43.115","https://swapbook.onrender.com","swapbook.onrender.com"]
 CSRF_TRUSTED_ORIGINS = ["http://192.168.43.115:8000","https://swapbook.onrender.com"]  # only needed if you submit forms / use admin with DEBUG=False
 
 # --------------------------------------------------------------------------------------
